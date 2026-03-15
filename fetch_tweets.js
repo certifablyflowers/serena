@@ -10,7 +10,7 @@ const client = new TwitterApi({
 
 (async () => {
   try {
-    const user = await client.v2.userByUsername('Crit_Care');
+    const user = await client.v2.userByUsername('CriticalCareNow');
     console.log('User:', JSON.stringify(user.data));
 
     const res = await client.v2.userTimeline(user.data.id, { max_results: 5 });

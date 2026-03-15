@@ -10,23 +10,26 @@ const client = new TwitterApi({
 
 const quotes = [
   {
-    tweetId: '2032366050894102690',
-    text: "Sepsis doesn't care about the data until it's in your room at 2am. Good paper though."
+    handle: 'CriticalCareNow',
+    tweetId: '2033257108699775152',
+    text: "The membrane has its own agenda. We've drained the same head twice and asked the same questions both times."
   },
   {
-    tweetId: '2031641285443072474',
-    text: "Machine learning catching what we've been eyeballing for years. Respect."
+    handle: 'CriticalCareNow',
+    tweetId: '2033226971287576781',
+    text: "\"Drowning on dry land\" is exactly what it looks like in the room. The family never believes you until they do."
   },
   {
-    tweetId: '2030916501323366681',
-    text: "Early mobility saves people. The hard part is convincing everyone else in the room."
+    handle: 'CriticalCareNow',
+    tweetId: '2033166623457091986',
+    text: "The first time you use a VL after learning on DL feels like cheating. It is not cheating."
   },
 ];
 
 (async () => {
   for (const quote of quotes) {
     try {
-      const tweetUrl = `https://x.com/Crit_Care/status/${quote.tweetId}`;
+      const tweetUrl = `https://x.com/${quote.handle}/status/${quote.tweetId}`;
       const res = await client.v2.tweet(`${quote.text}\n\n${tweetUrl}`);
       console.log(`✅ Quote-tweeted ${quote.tweetId}: ${res.data.id}`);
     } catch(e) {
