@@ -1,0 +1,16 @@
+{
+  "name": "serena",
+  "version": "1.0.0",
+  "description": "Serena — autonomous AI social media agent for Brookey",
+  "main": "avatarvideo.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "form-data": "^4.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
