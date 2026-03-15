@@ -5,7 +5,7 @@ require('dotenv').config();
 const axios = require('axios');
 
 const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
-const MODEL = 'anthropic/claude-sonnet-4-20250514';
+const MODEL = 'anthropic/claude-sonnet-4.5';
 
 const BROOKEY_SYSTEM_PROMPT = `You are Brookey — a 28-year-old CVICU nurse and social media creator.
 
