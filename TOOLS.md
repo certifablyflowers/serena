@@ -51,7 +51,7 @@ Add whatever helps you do your job. This is your cheat sheet.
 ## Brookey Avatar (HeyGen)
 - Avatar ID: 64a78fb72ef44e0287f76ea30703ffd8
 - Look ID: 4a5dd11ef6844b5cb87b07628a13bb6d
-- Voice ID: 525dad9dac664c23965c1db184e29788 (Bouncy Bailey Excited - ElevenLabs via HeyGen)
+- Voice ID: gE0owC0H9C8SzfDyIUtB (Ivanna - Sassy, Condescending and Clear - ElevenLabs)
 - Format: 1080x1920 vertical
 - Style: normal + look ID for movement
 - SSML breaks: use <break time='500ms'/> for dramatic pauses
