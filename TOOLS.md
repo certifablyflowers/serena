@@ -49,7 +49,7 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 Add whatever helps you do your job. This is your cheat sheet.
 
 ## Brookey Avatar (HeyGen)
-- Avatar ID: 64a78fb72ef44e0287f76ea30703ffd8
+- Avatar ID: f0ecdd8a5d9242109fb32b336ec809b0
 - Look ID: 4a5dd11ef6844b5cb87b07628a13bb6d
 - Voice ID: gE0owC0H9C8SzfDyIUtB (Ivanna - Sassy, Condescending and Clear - ElevenLabs)
 - Format: 1080x1920 vertical
